@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 200px;
+}
+
+#SpaceBox{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#SpaceBox .Box{
+    border: 1px solid #777777;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#SpaceBox .Box div{
+    padding: 15px;
+}
+
+#SpaceBox .Box img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#SpaceBox .Box h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #333333;
+}
+
+#SpaceBox .Box p{
+    font-size: 16px;
+    text-align: justify;
+    word-break: break-all;
+    color: #555555;
+    margin: 10px 0;
+}
+
+#SpaceBox .Box button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #777777;
+    color: white;
+}
+
+#SpaceBox .Box button span{
+    margin-left: 10px;
+    font-size: 25px;
+}

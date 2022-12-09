@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: lightgreen;
+}
+
+#box{
+    width: 300px;
+    margin: auto;
+    /* padding: 15px; */
+    border: none;
+    border-radius: 6px;
+    height: 400px;
+    background: white;
+}
+#head{
+    width: 300px;
+    height:100px;
+    /* background:darkgreen; */
+    padding: 1px;
+    
+}
+#box #head h2{
+    /* background: darkgreen; */
+    border-radius: 6px;
+    text-align: center;
+    margin: 40px 0 40px 0;
+    
+}

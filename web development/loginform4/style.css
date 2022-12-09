@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: lightgreen;
+}
+
+#box{
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+    margin-top: 150px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -20px;
+    
+
+}
+#box h2{
+    text-align: center;
+    background: darkgreen;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+
+#box form{
+    margin: 20px;
+}
+#box form div{
+    /* background: blue; */
+    
+    height: 100%;
+    padding:0 10px 0 10px;
+    border-radius: 8px;
+    
+
+}
+#box form div span{
+    background: darkgreen;
+    height: 35px;
+    width: 30px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    margin-bottom: 10px;
+
+    
+}
+#box form div input{
+    height: 35px;
+    /* width: 350px; */
+    width: calc(100% - 30px);
+    float: right;
+    padding: 5px;
+    font-size: 17px;
+    /* border-radius: 1px; */
+    outline: none;
+
+
+    
+
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+    margin-top: 15px;
+
+}
+
+button{
+    background: darkgreen;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 35px;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    border-radius: 4px;
+    
+
+
+
+}
+
+p{
+    text-align: center;
+    padding-bottom: 15px;
+}

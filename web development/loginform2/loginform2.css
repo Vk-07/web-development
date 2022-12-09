@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: lightcyan;
+
+}
+
+#box{
+    width:300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 150px;
+    border: none;
+    background: white;
+    border-radius: 8px;
+    height: 370px;
+
+    
+
+
+}
+#box #imgbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: red;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+#box #imgbox img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 12px; */
+}
+#box h2{
+    text-align: center;
+    margin: 20px 0 20px;
+    color: red;
+
+
+}
+
+#box form div{
+    /* background: red; */
+    margin:10px 0 10px;
+    border: 1px solid red;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+
+
+}
+#box form span{
+    width: 40px;
+    height: 100%;
+    /* margin: auto; */
+    border-right: 2px solid red;
+    padding: 5px;
+    color: red;
+
+
+
+}
+#box form div input{
+    width:calc(100% - 40px);
+    float: right;
+    height: 100%;
+    padding: 15px;
+    font-size: 17px;
+    /* border: 3px solid green; */
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
+
+}
+
+button{
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 20px;
+
+}
+
+p{
+    text-align: 
+    center;
+    margin: 20px 20px 0 20px;
+
+
+}
