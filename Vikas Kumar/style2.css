@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 50px;
+}
+
+
+.mainBox{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    /* border: 1px solid red; */
+}
+.col1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    background: #AA77FF;
+    border-radius: 100px;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+.col1 .circle{
+    background: #8F43EE;
+    padding: 5px 80px;
+    border-radius: 30px;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.col1 .circle h3{
+    font-size: 30px;
+    color: #fdfdfd;
+}
+.col2{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-basis: 50%;
+    margin-top: 30px;
+}
+.firstB{
+    width: 250px;
+    background: #484848;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.firstB h2{
+    font-weight: normal;
+    font-size: 15px;
+}
+.col3{
+    width: 73%;
+}
+button{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background: #AA77FF;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 1px;
+    outline: none;
+}
+button:hover{
+    background: #484848;
+}
+.check span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #8F43EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    position: relative;
+    background: red;
+    padding: 0 50px;
+
+}
+i{
+    position: absolute;
+    bottom: 7px;
+    left: 70px;
+    font-size: 30px;
+    color: #edeaff;
+}
+.back{
+    width: 100%;
+}
+
