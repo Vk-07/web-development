@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #171717;
+}
+
+header{
+    background: #212121;
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    color: white;
+}
+
+header nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav span{
+    cursor: pointer;
+}
+
+header nav div h2{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* start Score Section */
+#scoreSection{
+    width: 632px;
+    background: #202124;
+    margin: auto;
+    color: #BDC1BC;
+}
+
+#scoreSection #topSection{
+    padding: 24px 20px;
+}
+
+#scoreSection #scoreHeading{
+    font-size: 14px;
+}
+
+#showScore{
+    padding: 16px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#scoreSection .Country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    /* background: red; */
+}
+
+#scoreSection .Country p{
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#scoreSection .Country div:last-child p{
+    font-size: 16px;
+} 
+
+#scoreSection .Country div:last-child p span{
+    font-size: 12px;
+}
+
+#topBottom p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#topBottom p:last-child{
+    color: #9aa0a6;
+}
+
+
+#scoreSection .Country div:last-child{
+    margin-bottom: 20px;
+}
+
+#scoreSection .Country:last-child{
+    flex-direction: row-reverse;
+}
+
+#scoreSection .Country img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}

@@ -1,0 +1,159 @@
+section #iconsbox div img{
+    width: 170px;
+    height: 170px;
+}
+
+section #iconsbox div{
+    width: 24%;
+    border-radius: 20px;
+    /* background: red; */
+    transition: all 0.3s cubic-bezier(1, 1.46, 0, 1.03) 0s;
+}
+
+section #iconsbox div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section #iconsbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7700ff1e;
+    width: 1000px;
+    border: 4px solid #7700ff;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+section  h3{
+    text-align: left;
+    /* background: red; */
+    font-size: 89px;
+    padding-top: 60px;
+    margin-left: 180px;
+    margin-bottom: 70px;
+    user-select: none;
+    position: relative;
+    width: fit-content;
+}
+
+section #colorKey{
+    color: #7700ff;
+}
+
+section  h3::after{
+    content: '';
+    position: absolute;
+    background: #7700ff;
+    left: 0;
+    bottom: -15px;
+    width: 25%;
+    height: 10px;
+    transition: all ease 0.3s;
+}
+
+section  h3:hover::after{
+    width: 80%;
+}
+section #aboutbox {
+    padding: 0px 180px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+section #aboutbox img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 4px solid  #7700ff;
+}
+section #aboutbox p{
+    margin: auto;
+    margin-left: 200px;
+    word-break: break-all;
+    font-size: 20px;
+}
+section #socialmedia img{
+    width: 100px;
+}
+
+section #socialmedia{
+    background: #7700ff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+section #locationbox img{
+    width: 270px;
+    height: 100%;
+    border: 4px solid #7700ff;
+}
+section #locationbox{
+     /* background: red; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 74%;
+     margin: auto;
+     height: 250px;
+}
+section #locationbox #detailsbox{
+    /* background: yellow; */
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+section #locationbox #detailsbox p{
+    font-size: 30px;
+}
+section #locationbox #detailsbox span{
+    width: 50px;
+    height: 50px;
+    padding:10px 0px 0px 10px
+    
+}
+section #locationbox #detailsbox div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+section #footer{
+    background:#3333;
+    width: 74%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 30px;
+
+}
+section #footer span{
+    width: 50%;
+    /* background: red; */
+
+}
+section #footer input{
+    width: 50%;
+    margin-bottom: 20px;
+}
+section #footer textarea{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+section #footer button{
+    height: 30px;
+    width: 100%;
+    background: white;
+    color: black;
+    margin-bottom: 25px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+

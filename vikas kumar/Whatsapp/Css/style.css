@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#mainContainer{
+    width: 271px;
+    background: #0F1C24;
+    margin: auto;
+    margin-top: 50px;
+    height: 520px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#mainContainer header{
+    background: #1B2C34;
+    padding: 20px 20px 2px 10px;
+}
+
+#mainContainer header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainContainer header nav h2{
+    color: #888888;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#mainContainer header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+#mainContainer header #toggleBar{
+    margin-top: 20px;
+}
+
+#mainContainer header #toggleBar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainContainer header #toggleBar ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #888888;
+    position: relative;
+}
+
+#mainContainer header #toggleBar ul li.Active{
+    color: #017A63;
+    font-weight: 500;
+}
+
+#mainContainer header #toggleBar ul li.Active::after{
+    content: '';
+    position: absolute;
+    background: #017A63;
+    width: 229%;
+    bottom: -6px;
+    height: 2px;
+    left: 0;
+    transform: translateX(-24px);
+}
+
+#mainContainer header nav ul img{
+    width: 18px;
+    padding-top: 5px;
+}
+
+#mainContainer header #toggleBar img{
+    width: 22px;
+}
+
+/* Start main section */
+main{
+    padding: 15px;
+}
+
+main ul li .userPicture{
+    width: 37px;
+    border-radius: 50%;
+    background: white;
+    height: 37px;
+    overflow: hidden;
+}
+
+main ul li .userPicture img{
+    width: 100%;
+}
+
+main ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+main ul li .userDetails{
+    width: 60%;
+    padding-left: 4px;
+    align-self: center;
+}
+
+main ul li .userDetails h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(236, 236, 236);
+}
+
+main ul li .userDetails p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #888888;
+    padding-top: 3px;
+}
+
+main ul li .date p{
+    font-size: 10px;
+    font-weight: 300;
+    color: #888888;
+
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5ba83c7;
+    height: 100vh;
+}
+
+#loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+
+#loader h2{
+    font-size: 40px;
+}
+
+#mainbox{
+    background: white;
+    width: 300px;
+    height: 280px;
+    padding: 40px 15px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    pointer-events: none;
+    opacity: 0;
+    z-index: -100;
+    transition: all cubic-bezier(0.28, 1.08, 0.16, 1.24) 0.3s;
+}
+
+#mainbox.active{
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: unset;
+    opacity: 1;
+    z-index: 100;
+}
+
+#mainbox h2{
+    color: #f3914f;
+}
+
+#starratingbox{
+    padding: 10px 0px;
+}
+#starratingbox i{
+    font-size: 25px;
+    color: #dfdfdf;
+    cursor: pointer;
+    user-select: none;
+}
+
+#starratingbox i.activeStar{
+    color: #f3914f;
+}
+
+#textareabox textarea{
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #f3914f;
+    resize: none;
+    user-select: none;
+    width: 100%;
+    height: 80px;
+    
+}
+#mainbox button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    color:white;
+    background: #f3914f;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+
+}
+#closebox{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px 15px;
+    font-size: 25px;
+    color: #f3914f;
+
+}
+
+#closeBtn{
+    cursor: pointer;
+}
+
+#addReviews{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f3914f;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+
+#addReviews:active{
+    transform: scale(0.97);
+}
